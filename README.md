@@ -13,4 +13,6 @@ Repository for Aj's script for mayhem compilation setup on native linux host
 
 Feel free to edit / adjust to your need. Script is all thanks to @aj#3566 on discord
 
-Portapack Mayhem's firmware build instructions: https://github.com/eried/portapack-mayhem/wiki/Compile-firmware#using-arm-on-debian
+Portapack Mayhem's firmware build instructions: 
+
+https://github.com/eried/portapack-mayhem/wiki/Compile-firmware
