@@ -42,7 +42,7 @@ cd portapack-mayhem
 cd firmware
 mkdir build; cd build
 PATH=/opt/build/armbin/bin:/opt/build/armbin/lib:$PATH
-cmake -B./ -S../../
+cmake ..
 make firmware
 
 # Flash if compiled
