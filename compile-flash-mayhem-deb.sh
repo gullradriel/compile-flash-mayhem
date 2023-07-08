@@ -38,8 +38,8 @@ if [ ! -d /opt/portapack-mayhem ]; then
 	USER=`whoami`
 	GROUP=`id -g` 
 	sudo chown -R $USER:$GROUP /opt/portapack-mayhem
-	# If needed, replace the python version in libopencm3 to use python3
-	sed -i 's/env python$/env python3/g' portapack-mayhem/hackrf/firmware/libopencm3/scripts/irq2nvic_h
+	# If needed, replace the python version in libopencm3 to use python3. This should not be needed anymore, but left here in case...
+	# sed -i 's/env python$/env python3/g' portapack-mayhem/hackrf/firmware/libopencm3/scripts/irq2nvic_h
 fi
 
 # Compile
