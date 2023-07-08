@@ -47,7 +47,7 @@ cd /opt/portapack-mayhem
 mkdir build; cd build
 PATH=/opt/build/armbin/bin:/opt/build/armbin/lib:$PATH
 cmake ..
-make firmware
+make -j 6
 
 # Flash if compiled
 if [[ -f firmware/portapack-h1_h2-mayhem.bin ]]; then
