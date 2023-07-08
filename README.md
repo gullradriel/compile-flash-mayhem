@@ -8,8 +8,7 @@ Repository for Aj's script for mayhem compilation setup on native linux host
 3. clone the eried's mayhem repository from GitHub (if not done before)
 4. do required modification for python 3 on source
 5. setup environmental variables for compiler
-6. create makefile through cmake and compile
-7. flash the firmware to HackRF
+6. flash the firmware to HackRF
 
 Feel free to edit / adjust to your need. Script is all thanks to @aj#3566 on discord
 
