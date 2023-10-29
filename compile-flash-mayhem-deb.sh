@@ -14,10 +14,10 @@ if [ ! -d /opt/build ]; then
 	echo "--- Updating system - installing packages ---"
 	sleep 1
 	sudo apt-get update
-	sudo apt-get install -y git tar wget dfu-util cmake python3 bzip2 curl hackrf python3-distutils python3-setuptools
-	curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py; python3 get-pip.py
-	rm get-pip.py
-	pip install pyyaml
+	sudo apt-get install -y git tar wget dfu-util cmake python3 bzip2 curl hackrf python3-distutils python3-setuptools python3-yaml lz4
+	#curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py; python3 get-pip.py
+	#rm get-pip.py
+	#sudo pip install pyyaml
 
 	echo "--- Updating system - installing ARM compiler ---"
 	sleep 1
