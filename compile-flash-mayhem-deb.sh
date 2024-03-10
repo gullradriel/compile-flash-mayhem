@@ -22,7 +22,7 @@ if [ ! -d /opt/build ]; then
 	echo "--- Updating system - installing ARM compiler ---"
 	sleep 1
 	sudo mkdir /opt/build; cd /opt/build
-	sudo wget -O gcc-arm-none-eabi.tar.bz2 'https://developer.arm.com/-/media/Files/downloads/gnu-rm/9-2020q2/gcc-arm-none-eabi-9-2020-q2-update-x86_64-linux.tar.bz2?revision=05382cca-1721-44e1-ae19-1e7c3dc96118&la=en&hash=D7C9D18FCA2DD9F894FD9F3C3DC9228498FA281A'
+	sudo wget -O gcc-arm-none-eabi.tar.bz2 '/9-2020q2/gcc-arm-none-eabi-9-2020-q2-update-x86_64-linux.tar.bz2?revision=05382cca-1721-44e1-ae19-1e7c3dc96118&la=en&hash=D7C9D18FCA2DD9F894FD9F3C3DC9228498FA281A'
 	sudo mkdir armbin
 	sudo tar --strip=1 -xjvf gcc-arm-none-eabi.tar.bz2 -C armbin
 fi
